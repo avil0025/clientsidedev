@@ -36,7 +36,7 @@ console.log(output);
 
 let first_name = "Laura";
 let last_name = "Avila";
-let email = "laura.avila@mail.com";
+let email = "avil0025@algonquinlive.com";
 
 let output1 = `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
 
