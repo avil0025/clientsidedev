@@ -38,6 +38,6 @@ let first_name = "Laura";
 let last_name = "Avila";
 let email = "laura.avila@mail.com";
 
-let output = `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
+let output1 = `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
 
-console.log(output);
+console.log(output1);
