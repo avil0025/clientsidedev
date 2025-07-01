@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form id="my-form">
+      <legend>Form Assigment</legend>
+      <div class="box" id="name">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" />
+      </div>
+      <div class="box" id="emailWrapper">
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+      </div>
+      <div class="box" id="message">
+        <label for="msg">Message</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="box">
+        <input type="button" value="Submit form" id="submit-btn" />
+      </div>
+      <span id="err"></span>
+    </form>
+    <script src="js/index.js"></script>
+  </body>
+</html>
