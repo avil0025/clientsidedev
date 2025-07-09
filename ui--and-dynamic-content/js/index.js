@@ -1,11 +1,7 @@
-// Acces all UI elements and othere active HTML tags
-
-// make your button event target object. When the button is clicked
-// your event handler will create the ne list item if user entered something in the field; If not, create the error message
-
 const groceries = [];
 const list = document.getElementById("groceries");
 const input = document.getElementById("user-input");
+const error = document.getElementById("error");
 const submit = document.getElementById("add");
 
 const addItem = () => {
@@ -18,6 +14,9 @@ const addItem = () => {
     list.appendChild(li);
 
     input.value = "";
+    error.style.display = "none";
+  } else {
+    error.style.display = "block";
   }
 };
 
