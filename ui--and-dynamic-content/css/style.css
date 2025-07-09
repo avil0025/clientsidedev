@@ -100,3 +100,7 @@ i {
   font-size: 2rem;
   color: rgb(171, 44, 80);
 }
+
+#error {
+  display: none;
+}
