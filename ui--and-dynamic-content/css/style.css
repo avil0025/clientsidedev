@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Amarante&family=Quicksand:wght@300..700&display=swap");
+
+body {
+  background-color: rgba(255, 216, 227, 0.571);
+  font-family: "Quicksand", sans-serif;
+}
+input {
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  font-family: "Amarante", serif;
+  color: rgb(171, 44, 80);
+}
+
+#widget {
+  max-width: 45rem;
+  background-color: rgba(209, 129, 170, 0.459);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 30px;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 25vh;
+}
+
+#user-input {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+#add {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(171, 44, 80, 0.64);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 90%;
+  margin: auto;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.01);
+  }
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+h1 {
+  margin: auto;
+}
+
+li {
+  padding: 12px;
+  border-bottom: 1px solid rgb(140, 140, 140);
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  border-top: 1px solid rgb(86, 47, 61);
+  gap: 18px;
+}
+
+img {
+  height: 15em;
+  width: 15em;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  box-shadow: 0 5px 10px rgba(68, 44, 49, 0.2);
+  transition: transform 0.3s ease;
+  animation: float 1.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+i {
+  font-size: 2rem;
+  color: white;
+}
